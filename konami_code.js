@@ -9,6 +9,9 @@ const checkKeyCode = () => {
   } else {
     tracker = 0 
   }
+  if (tracker === 10) {
+    alert("You won, yay!")
+  }
   console.log(tracker)
 }
 
